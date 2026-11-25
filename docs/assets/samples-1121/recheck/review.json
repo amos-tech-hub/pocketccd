@@ -1,0 +1,266 @@
+{
+  "date": "2026-11-21",
+  "scope": "Seven new physical camera photos, source JPEG and output HEIC inspected. No code changes in this review.",
+  "release_assessment": "Ambient/shadow improvement supported by samples; flash portrait processing still requires correction.",
+  "build_identity": "Latest installed binary not fingerprinted from capture manifest.",
+  "samples": [
+    {
+      "file": "IMG_6398.HEIC",
+      "folder": "20261121-230450-3b3dea",
+      "capture": {
+        "camera": "POCKET A7",
+        "cameraPosition": "back",
+        "capturedAt": "2026-11-21T15:04:50Z",
+        "exposureBias": 0,
+        "flashMode": "AUTO",
+        "frames": [
+          {
+            "byteCount": 2513675,
+            "exposure": {
+              "exposureBias": 0,
+              "iso": 400,
+              "shutterSeconds": 0.030303030303030304,
+              "whiteBalanceMode": 0
+            },
+            "fileName": "frame-0-standard.jpg",
+            "pixelHeight": 3024,
+            "pixelWidth": 4032,
+            "role": "standard"
+          }
+        ],
+        "iso": 400,
+        "lens": "1×",
+        "mode": "standard",
+        "requestedISO": 100,
+        "requestedShutterSeconds": 0.016666666666666666,
+        "requestedWhiteBalanceKelvin": 5200,
+        "shutterSeconds": 0.030303030303030304,
+        "version": 1
+      },
+      "review": "A7 ambient: more coherent warm skin; some yellow on forehead remains"
+    },
+    {
+      "file": "IMG_6399.HEIC",
+      "folder": "20261121-230457-414002",
+      "capture": {
+        "camera": "POCKET A8",
+        "cameraPosition": "back",
+        "capturedAt": "2026-11-21T15:04:57Z",
+        "exposureBias": 0,
+        "flashMode": "AUTO",
+        "frames": [
+          {
+            "byteCount": 2466553,
+            "exposure": {
+              "exposureBias": 0,
+              "iso": 500,
+              "shutterSeconds": 0.030303030303030304,
+              "whiteBalanceMode": 0
+            },
+            "fileName": "frame-0-standard.jpg",
+            "pixelHeight": 3024,
+            "pixelWidth": 4032,
+            "role": "standard"
+          }
+        ],
+        "iso": 500,
+        "lens": "1×",
+        "mode": "standard",
+        "requestedISO": 100,
+        "requestedShutterSeconds": 0.016666666666666666,
+        "requestedWhiteBalanceKelvin": 5200,
+        "shutterSeconds": 0.030303030303030304,
+        "version": 1
+      },
+      "review": "A8 ambient: soft skin, slightly grey/low contrast"
+    },
+    {
+      "file": "IMG_6400.HEIC",
+      "folder": "20261121-230503-a1435e",
+      "capture": {
+        "camera": "POCKET C1",
+        "cameraPosition": "back",
+        "capturedAt": "2026-11-21T15:05:03Z",
+        "exposureBias": 0,
+        "flashMode": "AUTO",
+        "frames": [
+          {
+            "byteCount": 2531524,
+            "exposure": {
+              "exposureBias": 0,
+              "iso": 500,
+              "shutterSeconds": 0.030303030303030304,
+              "whiteBalanceMode": 0
+            },
+            "fileName": "frame-0-standard.jpg",
+            "pixelHeight": 3024,
+            "pixelWidth": 4032,
+            "role": "standard"
+          }
+        ],
+        "iso": 500,
+        "lens": "1×",
+        "mode": "standard",
+        "requestedISO": 100,
+        "requestedShutterSeconds": 0.016666666666666666,
+        "requestedWhiteBalanceKelvin": 5200,
+        "shutterSeconds": 0.030303030303030304,
+        "version": 1
+      },
+      "review": "C1 ambient: clearest facial separation; bright background"
+    },
+    {
+      "file": "IMG_6401.HEIC",
+      "folder": "20261121-230509-a0ab1a",
+      "capture": {
+        "camera": "POCKET N2",
+        "cameraPosition": "back",
+        "capturedAt": "2026-11-21T15:05:09Z",
+        "exposureBias": 0,
+        "flashMode": "AUTO",
+        "frames": [
+          {
+            "byteCount": 2476596,
+            "exposure": {
+              "exposureBias": 0,
+              "iso": 400,
+              "shutterSeconds": 0.030303030303030304,
+              "whiteBalanceMode": 0
+            },
+            "fileName": "frame-0-standard.jpg",
+            "pixelHeight": 3024,
+            "pixelWidth": 4032,
+            "role": "standard"
+          }
+        ],
+        "iso": 400,
+        "lens": "1×",
+        "mode": "standard",
+        "requestedISO": 100,
+        "requestedShutterSeconds": 0.016666666666666666,
+        "requestedWhiteBalanceKelvin": 5200,
+        "shutterSeconds": 0.030303030303030304,
+        "version": 1
+      },
+      "review": "N2 ambient: face visible with restrained colour, some muted grey/green remains"
+    },
+    {
+      "file": "IMG_6402.HEIC",
+      "folder": "20261121-230542-e0d341",
+      "capture": {
+        "camera": "POCKET A7",
+        "cameraPosition": "back",
+        "capturedAt": "2026-11-21T15:05:42Z",
+        "exposureBias": 0,
+        "flashMode": "AUTO",
+        "frames": [
+          {
+            "byteCount": 2589136,
+            "exposure": {
+              "exposureBias": 0,
+              "iso": 400,
+              "shutterSeconds": 0.030303030303030304,
+              "whiteBalanceMode": 0
+            },
+            "fileName": "frame-0-ambient.jpg",
+            "pixelHeight": 3024,
+            "pixelWidth": 4032,
+            "role": "ambient"
+          },
+          {
+            "byteCount": 2538869,
+            "exposure": {
+              "exposureBias": 0,
+              "iso": 32,
+              "shutterSeconds": 0.1111111111111111,
+              "whiteBalanceMode": 0
+            },
+            "fileName": "frame-1-flash.jpg",
+            "pixelHeight": 3024,
+            "pixelWidth": 4032,
+            "role": "flash"
+          }
+        ],
+        "iso": 400,
+        "lens": "1×",
+        "mode": "flashPair",
+        "requestedISO": 100,
+        "requestedShutterSeconds": 0.016666666666666666,
+        "requestedWhiteBalanceKelvin": 5200,
+        "shutterSeconds": 0.030303030303030304,
+        "version": 1
+      },
+      "review": "A7 flashPair: blue/grey facial perimeter, red lips, excessive dark falloff; source flash JPEG does not show equivalent grey edge"
+    },
+    {
+      "file": "IMG_6403.HEIC",
+      "folder": "20261121-230907-699a33",
+      "capture": {
+        "camera": "POCKET A7",
+        "cameraPosition": "back",
+        "capturedAt": "2026-11-21T15:09:07Z",
+        "exposureBias": 0,
+        "flashMode": "AUTO",
+        "frames": [
+          {
+            "byteCount": 1298609,
+            "exposure": {
+              "exposureBias": 0,
+              "iso": 1250,
+              "shutterSeconds": 0.06666666666666667,
+              "whiteBalanceMode": 0
+            },
+            "fileName": "frame-0-standard.jpg",
+            "pixelHeight": 3024,
+            "pixelWidth": 4032,
+            "role": "standard"
+          }
+        ],
+        "iso": 1250,
+        "lens": "1×",
+        "mode": "standard",
+        "requestedISO": 100,
+        "requestedShutterSeconds": 0.016666666666666666,
+        "requestedWhiteBalanceKelvin": 5200,
+        "shutterSeconds": 0.06666666666666667,
+        "version": 1
+      },
+      "review": "A7 low light: features retained; warm and soft; source exposure ISO1250 1/15s"
+    },
+    {
+      "file": "IMG_6404.HEIC",
+      "folder": "20261121-230915-16804e",
+      "capture": {
+        "camera": "POCKET N2",
+        "cameraPosition": "back",
+        "capturedAt": "2026-11-21T15:09:15Z",
+        "exposureBias": 0,
+        "flashMode": "AUTO",
+        "frames": [
+          {
+            "byteCount": 1274894,
+            "exposure": {
+              "exposureBias": 0,
+              "iso": 1250,
+              "shutterSeconds": 0.06666666666666667,
+              "whiteBalanceMode": 0
+            },
+            "fileName": "frame-0-standard.jpg",
+            "pixelHeight": 3024,
+            "pixelWidth": 4032,
+            "role": "standard"
+          }
+        ],
+        "iso": 1250,
+        "lens": "1×",
+        "mode": "standard",
+        "requestedISO": 100,
+        "requestedShutterSeconds": 0.016666666666666666,
+        "requestedWhiteBalanceKelvin": 5200,
+        "shutterSeconds": 0.06666666666666667,
+        "version": 1
+      },
+      "review": "N2 low light: features retained, visible grain and softer texture; source already soft, ISO1250 1/15s"
+    }
+  ]
+}

@@ -1,0 +1,434 @@
+{
+  "date": "2026-11-21",
+  "inputs": [
+    "IMG_6394 original",
+    "IMG_6397 original",
+    "IMG_6386 original",
+    "IMG_6389 original"
+  ],
+  "changes": {
+    "A7": "Ambient red guard 0.75 to 0.45; flash unchanged",
+    "N2": "Replace channel brightness subtraction with luminance gain bounded at 0.85; contrast shadow gain bounded at 0.90; red guard 0.60 to 0.35",
+    "A8_C1": "Recipes unchanged"
+  },
+  "validation": {
+    "simulator_tests_passed": 127,
+    "suites": 35,
+    "skipped": "Night-flash sample measurement: reader has no requested FLASH fixture",
+    "device_release_compile": "passed, signing disabled",
+    "diff_whitespace_check": "passed",
+    "source_render": "1000px diagnostic renders using actual EXIF ISO",
+    "physical_retake_after_fix": false
+  },
+  "measurement_note": "Encoded sRGB weighted display brightness, not exposure stops. Fixed ROI is identical before/after; detected-face boxes may shift. Proxy renders are not a native-resolution noise/texture acceptance test.",
+  "measurements": [
+    {
+      "file": "room-dark1121-6386-A7-all.png",
+      "before_fixed_roi": {
+        "B_G": 0.5131721797165162,
+        "bright_percent": 0,
+        "dark_percent": 32.9712389380531,
+        "luma": 0.0650142311122692,
+        "R_G": 1.4967058836975198
+      },
+      "after_fixed_roi": {
+        "B_G": 0.5126905873798849,
+        "bright_percent": 0,
+        "dark_percent": 32.9712389380531,
+        "luma": 0.06502024244317328,
+        "R_G": 1.4975435959927215
+      },
+      "before_detected_faces": [
+        {
+          "box": [
+            0.26996326446533203,
+            0.29737547039985657,
+            0.3700309693813324,
+            0.2775232195854187
+          ],
+          "central_face": {
+            "B_G": 0.5038445043222781,
+            "bright_percent": 0,
+            "dark_percent": 20.741758241758244,
+            "luma": 0.07715338684191692,
+            "R_G": 1.5851373580140204
+          }
+        }
+      ],
+      "after_detected_faces": [
+        {
+          "box": [
+            0.27053818106651306,
+            0.29230475425720215,
+            0.37532520294189453,
+            0.2814939022064209
+          ],
+          "central_face": {
+            "B_G": 0.5036092790990063,
+            "bright_percent": 0,
+            "dark_percent": 21.361892583120206,
+            "luma": 0.07566322812296357,
+            "R_G": 1.578895220114772
+          }
+        }
+      ]
+    },
+    {
+      "file": "room-dark1121-6386-N2-all.png",
+      "before_fixed_roi": {
+        "B_G": 0.929101403271417,
+        "bright_percent": 0,
+        "dark_percent": 63.86283185840708,
+        "luma": 0.039370324692001066,
+        "R_G": 0.9483465161055836
+      },
+      "after_fixed_roi": {
+        "B_G": 0.852477998871733,
+        "bright_percent": 0,
+        "dark_percent": 1.7986725663716814,
+        "luma": 0.10811845132743418,
+        "R_G": 1.4573592716891706
+      },
+      "before_detected_faces": [
+        {
+          "box": [
+            0.2685580551624298,
+            0.29696208238601685,
+            0.3766523003578186,
+            0.28248924016952515
+          ],
+          "central_face": {
+            "B_G": 0.8700595513909958,
+            "bright_percent": 0,
+            "dark_percent": 59.5448079658606,
+            "luma": 0.04289833439631631,
+            "R_G": 0.9962816134365554
+          }
+        }
+      ],
+      "after_detected_faces": [
+        {
+          "box": [
+            0.27985453605651855,
+            0.29280877113342285,
+            0.38012540340423584,
+            0.2850940525531769
+          ],
+          "central_face": {
+            "B_G": 0.8514397336066104,
+            "bright_percent": 0,
+            "dark_percent": 0.8052481034697178,
+            "luma": 0.11471560709696031,
+            "R_G": 1.4833428700425848
+          }
+        }
+      ]
+    },
+    {
+      "file": "room-dark1121-6389-A7-all.png",
+      "before_fixed_roi": {
+        "B_G": 0.5663833485469235,
+        "bright_percent": 0,
+        "dark_percent": 33.230088495575224,
+        "luma": 0.08198165346174098,
+        "R_G": 1.3023694869118634
+      },
+      "after_fixed_roi": {
+        "B_G": 0.5645018104851154,
+        "bright_percent": 0,
+        "dark_percent": 33.22787610619469,
+        "luma": 0.08199643477355738,
+        "R_G": 1.304325484982661
+      },
+      "before_detected_faces": [
+        {
+          "box": [
+            0.24643294513225555,
+            0.3125786781311035,
+            0.3652430772781372,
+            0.2739323079586029
+          ],
+          "central_face": {
+            "B_G": 0.5433738987401118,
+            "bright_percent": 0,
+            "dark_percent": 25.342813610970033,
+            "luma": 0.07804384166343009,
+            "R_G": 1.5269360053018373
+          }
+        }
+      ],
+      "after_detected_faces": [
+        {
+          "box": [
+            0.24655964970588684,
+            0.3116040825843811,
+            0.36849939823150635,
+            0.27637454867362976
+          ],
+          "central_face": {
+            "B_G": 0.5410306631214944,
+            "bright_percent": 0,
+            "dark_percent": 26.165348860290464,
+            "luma": 0.07668796890456983,
+            "R_G": 1.5226262250477012
+          }
+        }
+      ]
+    },
+    {
+      "file": "room-dark1121-6389-N2-all.png",
+      "before_fixed_roi": {
+        "B_G": 0.8639586950432252,
+        "bright_percent": 0,
+        "dark_percent": 61.09292035398231,
+        "luma": 0.06004843973624859,
+        "R_G": 0.9717002461405458
+      },
+      "after_fixed_roi": {
+        "B_G": 0.814770831152152,
+        "bright_percent": 0,
+        "dark_percent": 0.745575221238938,
+        "luma": 0.12527123813985863,
+        "R_G": 1.3316928132186405
+      },
+      "before_detected_faces": [
+        {
+          "box": [
+            0.25052759051322937,
+            0.3130631148815155,
+            0.36505216360092163,
+            0.2737891376018524
+          ],
+          "central_face": {
+            "B_G": 0.8220739350806341,
+            "bright_percent": 0,
+            "dark_percent": 55.385136278991034,
+            "luma": 0.04751268409364778,
+            "R_G": 1.0287790552431446
+          }
+        }
+      ],
+      "after_detected_faces": [
+        {
+          "box": [
+            0.2489323765039444,
+            0.31082668900489807,
+            0.37403446435928345,
+            0.2805258631706238
+          ],
+          "central_face": {
+            "B_G": 0.828010323829306,
+            "bright_percent": 0,
+            "dark_percent": 0.9974424552429667,
+            "luma": 0.11735310796850686,
+            "R_G": 1.4030214743445653
+          }
+        }
+      ]
+    },
+    {
+      "file": "room-room1121-6394-A7-all.png",
+      "before_fixed_roi": {
+        "B_G": 0.8537682724785916,
+        "bright_percent": 0,
+        "dark_percent": 0.7522123893805309,
+        "luma": 0.37497477477009167,
+        "R_G": 1.4428967494643052
+      },
+      "after_fixed_roi": {
+        "B_G": 0.7795524827938268,
+        "bright_percent": 0,
+        "dark_percent": 0.7898230088495575,
+        "luma": 0.3782971088148632,
+        "R_G": 1.5796383709089643
+      },
+      "before_detected_faces": [
+        {
+          "box": [
+            0.34398022294044495,
+            0.3669714331626892,
+            0.28717854619026184,
+            0.21538391709327698
+          ],
+          "central_face": {
+            "B_G": 0.8789809867951608,
+            "bright_percent": 0,
+            "dark_percent": 0.7637752318603382,
+            "luma": 0.3801115271439784,
+            "R_G": 1.3271723320969553
+          }
+        }
+      ],
+      "after_detected_faces": [
+        {
+          "box": [
+            0.34877559542655945,
+            0.3698822557926178,
+            0.2792995572090149,
+            0.20947466790676117
+          ],
+          "central_face": {
+            "B_G": 0.8008597531675758,
+            "bright_percent": 0,
+            "dark_percent": 0.8908557963101327,
+            "luma": 0.3809255692179747,
+            "R_G": 1.4912157477370616
+          }
+        }
+      ]
+    },
+    {
+      "file": "room-room1121-6394-N2-all.png",
+      "before_fixed_roi": {
+        "B_G": 0.8220576836964476,
+        "bright_percent": 0,
+        "dark_percent": 1.2212389380530975,
+        "luma": 0.35621531551275437,
+        "R_G": 1.4706980517973582
+      },
+      "after_fixed_roi": {
+        "B_G": 0.8003278566354378,
+        "bright_percent": 0,
+        "dark_percent": 0.08628318584070797,
+        "luma": 0.3807879584938339,
+        "R_G": 1.4249646133500926
+      },
+      "before_detected_faces": [
+        {
+          "box": [
+            0.35066959261894226,
+            0.37201088666915894,
+            0.2749188542366028,
+            0.2061891257762909
+          ],
+          "central_face": {
+            "B_G": 0.833542463247035,
+            "bright_percent": 0,
+            "dark_percent": 1.2246117084826762,
+            "luma": 0.35640341199896775,
+            "R_G": 1.4002372725225904
+          }
+        }
+      ],
+      "after_detected_faces": [
+        {
+          "box": [
+            0.3496074676513672,
+            0.3723829984664917,
+            0.27484360337257385,
+            0.206132709980011
+          ],
+          "central_face": {
+            "B_G": 0.8219082750302136,
+            "bright_percent": 0,
+            "dark_percent": 0.05925925925925926,
+            "luma": 0.38175030128104553,
+            "R_G": 1.391700925225387
+          }
+        }
+      ]
+    },
+    {
+      "file": "room-room1121-6397-A7-all.png",
+      "before_fixed_roi": {
+        "B_G": 0.9122262868972468,
+        "bright_percent": 0,
+        "dark_percent": 3.024336283185841,
+        "luma": 0.5808017796807007,
+        "R_G": 1.1459714944830903
+      },
+      "after_fixed_roi": {
+        "B_G": 0.8938686420755216,
+        "bright_percent": 0,
+        "dark_percent": 3.0796460176991154,
+        "luma": 0.5815725795592285,
+        "R_G": 1.1771130082574146
+      },
+      "before_detected_faces": [
+        {
+          "box": [
+            0.5185522437095642,
+            0.36918795108795166,
+            0.23793762922286987,
+            0.1784532219171524
+          ],
+          "central_face": {
+            "B_G": 0.8978663525099772,
+            "bright_percent": 0,
+            "dark_percent": 0.9575815131370686,
+            "luma": 0.3517587352661879,
+            "R_G": 1.3157097042625352
+          }
+        }
+      ],
+      "after_detected_faces": [
+        {
+          "box": [
+            0.5112617015838623,
+            0.36169350147247314,
+            0.24875886738300323,
+            0.18656915426254272
+          ],
+          "central_face": {
+            "B_G": 0.8172734179196619,
+            "bright_percent": 0,
+            "dark_percent": 1.1243290294501669,
+            "luma": 0.3605047566869511,
+            "R_G": 1.487168787635958
+          }
+        }
+      ]
+    },
+    {
+      "file": "room-room1121-6397-N2-all.png",
+      "before_fixed_roi": {
+        "B_G": 0.9265272264662119,
+        "bright_percent": 0,
+        "dark_percent": 3.8495575221238942,
+        "luma": 0.5751640853722068,
+        "R_G": 1.089236478510469
+      },
+      "after_fixed_roi": {
+        "B_G": 0.9140343422483665,
+        "bright_percent": 0,
+        "dark_percent": 0.8075221238938054,
+        "luma": 0.5896524941350043,
+        "R_G": 1.0984237108666413
+      },
+      "before_detected_faces": [
+        {
+          "box": [
+            0.5139188766479492,
+            0.3739269971847534,
+            0.23344726860523224,
+            0.17508545517921448
+          ],
+          "central_face": {
+            "B_G": 0.8544749242558117,
+            "bright_percent": 0,
+            "dark_percent": 1.4109926168990976,
+            "luma": 0.33588301996171654,
+            "R_G": 1.3775875194547225
+          }
+        }
+      ],
+      "after_detected_faces": [
+        {
+          "box": [
+            0.5107345581054688,
+            0.3616872727870941,
+            0.25049906969070435,
+            0.18787430226802826
+          ],
+          "central_face": {
+            "B_G": 0.8348860189509281,
+            "bright_percent": 0,
+            "dark_percent": 0.0356582513193553,
+            "luma": 0.357456060700134,
+            "R_G": 1.395377845331899
+          }
+        }
+      ]
+    }
+  ]
+}

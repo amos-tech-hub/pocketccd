@@ -1,0 +1,100 @@
+{
+  "samples": [
+    {
+      "file": "IMG_6409.HEIC",
+      "folder": "20261121-234357-410b49",
+      "capture": {
+        "camera": "POCKET A7",
+        "cameraPosition": "back",
+        "capturedAt": "2026-11-21T15:43:57Z",
+        "exposureBias": 0,
+        "flashMode": "AUTO",
+        "frames": [
+          {
+            "byteCount": 1192183,
+            "exposure": {
+              "exposureBias": 0,
+              "iso": 3200,
+              "shutterSeconds": 0.06666666666666667,
+              "whiteBalanceMode": 0
+            },
+            "fileName": "frame-0-ambient.jpg",
+            "pixelHeight": 3024,
+            "pixelWidth": 4032,
+            "role": "ambient"
+          },
+          {
+            "byteCount": 3180204,
+            "exposure": {
+              "exposureBias": 0,
+              "iso": 64,
+              "shutterSeconds": 0.25,
+              "whiteBalanceMode": 0
+            },
+            "fileName": "frame-1-flash.jpg",
+            "pixelHeight": 3024,
+            "pixelWidth": 4032,
+            "role": "flash"
+          }
+        ],
+        "iso": 3200,
+        "lens": "1×",
+        "mode": "flashPair",
+        "requestedISO": 100,
+        "requestedShutterSeconds": 0.016666666666666666,
+        "requestedWhiteBalanceKelvin": 5200,
+        "shutterSeconds": 0.06666666666666667,
+        "version": 1
+      }
+    },
+    {
+      "file": "IMG_6410.HEIC",
+      "folder": "20261121-234524-ee06e2",
+      "capture": {
+        "camera": "POCKET A7",
+        "cameraPosition": "back",
+        "capturedAt": "2026-11-21T15:45:24Z",
+        "exposureBias": 0,
+        "flashMode": "AUTO",
+        "frames": [
+          {
+            "byteCount": 1232732,
+            "exposure": {
+              "exposureBias": 0,
+              "iso": 2500,
+              "shutterSeconds": 0.06666666666666667,
+              "whiteBalanceMode": 0
+            },
+            "fileName": "frame-0-ambient.jpg",
+            "pixelHeight": 3024,
+            "pixelWidth": 4032,
+            "role": "ambient"
+          },
+          {
+            "byteCount": 3216864,
+            "exposure": {
+              "exposureBias": 0,
+              "iso": 64,
+              "shutterSeconds": 0.25,
+              "whiteBalanceMode": 0
+            },
+            "fileName": "frame-1-flash.jpg",
+            "pixelHeight": 3024,
+            "pixelWidth": 4032,
+            "role": "flash"
+          }
+        ],
+        "iso": 2500,
+        "lens": "1×",
+        "mode": "flashPair",
+        "requestedISO": 100,
+        "requestedShutterSeconds": 0.016666666666666666,
+        "requestedWhiteBalanceKelvin": 5200,
+        "shutterSeconds": 0.06666666666666667,
+        "version": 1
+      }
+    }
+  ],
+  "review": "Both saved photos and original flash records still ISO64 0.25 seconds. No obvious recurrence of blue-grey skin bands; mild yellow/pale skin remains. Actual shutter ceiling not verified. Capture records lack installed build identity and applied AE state.",
+  "code_changes_this_review": false
+}

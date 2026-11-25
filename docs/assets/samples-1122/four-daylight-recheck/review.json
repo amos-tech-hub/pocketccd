@@ -1,0 +1,279 @@
+{
+  "date": "2026-11-22",
+  "samples": [
+    {
+      "file": "IMG_6466.HEIC",
+      "folder": "20261122-095213-6e7bd8",
+      "exif": {
+        "ExposureTime": "\"0.0003350083752093803\"",
+        "ISOSpeedRatings": "(\n        50\n    )",
+        "Flash": "16"
+      },
+      "capture": {
+        "camera": "POCKET A7",
+        "cameraPosition": "back",
+        "capturedAt": "2026-11-22T01:52:13Z",
+        "exposureBias": 0,
+        "flashMode": "NO FLASH",
+        "frames": [
+          {
+            "byteCount": 4883580,
+            "diagnostics": {
+              "actualExposure": {
+                "exposureBias": 0,
+                "iso": 50,
+                "shutterSeconds": 0.00033500837520938025,
+                "whiteBalanceMode": 0
+              },
+              "after": {
+                "iso": 47.85446,
+                "maximumSeconds": 0.06666666666666667,
+                "mode": 2,
+                "shutterSeconds": 0.000349
+              },
+              "appBuild": "2",
+              "appVersion": "1.0.1",
+              "before": {
+                "iso": 47.85446,
+                "maximumSeconds": 0.06666666666666667,
+                "mode": 2,
+                "shutterSeconds": 0.000349
+              },
+              "exposureStrategy": "existing-exposure",
+              "flashLimitApplied": false,
+              "manualExposure": false,
+              "policyRevision": "flash-completion-verified-20261122-v4",
+              "prioritization": "quality",
+              "requestedFlash": "NO FLASH"
+            },
+            "exposure": {
+              "exposureBias": 0,
+              "iso": 50,
+              "shutterSeconds": 0.00033500837520938025,
+              "whiteBalanceMode": 0
+            },
+            "fileName": "frame-0-standard.jpg",
+            "pixelHeight": 3024,
+            "pixelWidth": 4032,
+            "role": "standard"
+          }
+        ],
+        "iso": 50,
+        "lens": "1×",
+        "mode": "standard",
+        "requestedISO": 100,
+        "requestedShutterSeconds": 0.016666666666666666,
+        "requestedWhiteBalanceKelvin": 5200,
+        "shutterSeconds": 0.00033500837520938025,
+        "version": 1
+      },
+      "review": "A7: warm yellow cast with scene/shadow detail retained"
+    },
+    {
+      "file": "IMG_6467.HEIC",
+      "folder": "20261122-095217-91f579",
+      "exif": {
+        "ExposureTime": "\"0.0003350083752093803\"",
+        "ISOSpeedRatings": "(\n        50\n    )",
+        "Flash": "16"
+      },
+      "capture": {
+        "camera": "POCKET A8",
+        "cameraPosition": "back",
+        "capturedAt": "2026-11-22T01:52:17Z",
+        "exposureBias": 0,
+        "flashMode": "NO FLASH",
+        "frames": [
+          {
+            "byteCount": 4942421,
+            "diagnostics": {
+              "actualExposure": {
+                "exposureBias": 0,
+                "iso": 50,
+                "shutterSeconds": 0.00033500837520938025,
+                "whiteBalanceMode": 0
+              },
+              "after": {
+                "iso": 48.03642,
+                "maximumSeconds": 0.06666666666666667,
+                "mode": 2,
+                "shutterSeconds": 0.000364
+              },
+              "appBuild": "2",
+              "appVersion": "1.0.1",
+              "before": {
+                "iso": 47.85446,
+                "maximumSeconds": 0.06666666666666667,
+                "mode": 2,
+                "shutterSeconds": 0.000349
+              },
+              "exposureStrategy": "existing-exposure",
+              "flashLimitApplied": false,
+              "manualExposure": false,
+              "policyRevision": "flash-completion-verified-20261122-v4",
+              "prioritization": "quality",
+              "requestedFlash": "NO FLASH"
+            },
+            "exposure": {
+              "exposureBias": 0,
+              "iso": 50,
+              "shutterSeconds": 0.00033500837520938025,
+              "whiteBalanceMode": 0
+            },
+            "fileName": "frame-0-standard.jpg",
+            "pixelHeight": 3024,
+            "pixelWidth": 4032,
+            "role": "standard"
+          }
+        ],
+        "iso": 50,
+        "lens": "1×",
+        "mode": "standard",
+        "requestedISO": 100,
+        "requestedShutterSeconds": 0.016666666666666666,
+        "requestedWhiteBalanceKelvin": 5200,
+        "shutterSeconds": 0.00033500837520938025,
+        "version": 1
+      },
+      "review": "A8: warm softer rendering, adequate shadow detail"
+    },
+    {
+      "file": "IMG_6468.HEIC",
+      "folder": "20261122-095221-37d3b5",
+      "exif": {
+        "ExposureTime": "\"0.000378931413414172\"",
+        "ISOSpeedRatings": "(\n        50\n    )",
+        "Flash": "16"
+      },
+      "capture": {
+        "camera": "POCKET C1",
+        "cameraPosition": "back",
+        "capturedAt": "2026-11-22T01:52:21Z",
+        "exposureBias": 0,
+        "flashMode": "NO FLASH",
+        "frames": [
+          {
+            "byteCount": 4963351,
+            "diagnostics": {
+              "actualExposure": {
+                "exposureBias": 0,
+                "iso": 50,
+                "shutterSeconds": 0.00037893141341417203,
+                "whiteBalanceMode": 0
+              },
+              "after": {
+                "iso": 47.49055,
+                "maximumSeconds": 0.06666666666666667,
+                "mode": 2,
+                "shutterSeconds": 0.000394
+              },
+              "appBuild": "2",
+              "appVersion": "1.0.1",
+              "before": {
+                "iso": 47.85446,
+                "maximumSeconds": 0.06666666666666667,
+                "mode": 2,
+                "shutterSeconds": 0.000379
+              },
+              "exposureStrategy": "existing-exposure",
+              "flashLimitApplied": false,
+              "manualExposure": false,
+              "policyRevision": "flash-completion-verified-20261122-v4",
+              "prioritization": "quality",
+              "requestedFlash": "NO FLASH"
+            },
+            "exposure": {
+              "exposureBias": 0,
+              "iso": 50,
+              "shutterSeconds": 0.00037893141341417203,
+              "whiteBalanceMode": 0
+            },
+            "fileName": "frame-0-standard.jpg",
+            "pixelHeight": 3024,
+            "pixelWidth": 4032,
+            "role": "standard"
+          }
+        ],
+        "iso": 50,
+        "lens": "1×",
+        "mode": "standard",
+        "requestedISO": 100,
+        "requestedShutterSeconds": 0.016666666666666666,
+        "requestedWhiteBalanceKelvin": 5200,
+        "shutterSeconds": 0.00037893141341417203,
+        "version": 1
+      },
+      "review": "C1: clearest separation; shaded facade and foliage retained; bright wall punch still strong"
+    },
+    {
+      "file": "IMG_6469.HEIC",
+      "folder": "20261122-095226-3647bf",
+      "exif": {
+        "ExposureTime": "\"0.0004079967360261118\"",
+        "ISOSpeedRatings": "(\n        50\n    )",
+        "Flash": "16"
+      },
+      "capture": {
+        "camera": "POCKET N2",
+        "cameraPosition": "back",
+        "capturedAt": "2026-11-22T01:52:26Z",
+        "exposureBias": 0.00390625,
+        "flashMode": "NO FLASH",
+        "frames": [
+          {
+            "byteCount": 4996444,
+            "diagnostics": {
+              "actualExposure": {
+                "exposureBias": 0.00390625,
+                "iso": 50,
+                "shutterSeconds": 0.0004079967360261118,
+                "whiteBalanceMode": 0
+              },
+              "after": {
+                "iso": 47.308594,
+                "maximumSeconds": 0.06666666666666667,
+                "mode": 2,
+                "shutterSeconds": 0.000423
+              },
+              "appBuild": "2",
+              "appVersion": "1.0.1",
+              "before": {
+                "iso": 48.03642,
+                "maximumSeconds": 0.06666666666666667,
+                "mode": 2,
+                "shutterSeconds": 0.000408
+              },
+              "exposureStrategy": "existing-exposure",
+              "flashLimitApplied": false,
+              "manualExposure": false,
+              "policyRevision": "flash-completion-verified-20261122-v4",
+              "prioritization": "quality",
+              "requestedFlash": "NO FLASH"
+            },
+            "exposure": {
+              "exposureBias": 0.00390625,
+              "iso": 50,
+              "shutterSeconds": 0.0004079967360261118,
+              "whiteBalanceMode": 0
+            },
+            "fileName": "frame-0-standard.jpg",
+            "pixelHeight": 3024,
+            "pixelWidth": 4032,
+            "role": "standard"
+          }
+        ],
+        "iso": 50,
+        "lens": "1×",
+        "mode": "standard",
+        "requestedISO": 100,
+        "requestedShutterSeconds": 0.016666666666666666,
+        "requestedWhiteBalanceKelvin": 5200,
+        "shutterSeconds": 0.0004079967360261118,
+        "version": 1
+      },
+      "review": "N2: more muted and visibly softer/hazy than source; shutter1/2451 rules out a slow exposure as the primary explanation here"
+    }
+  ],
+  "assessment": "All four are nonflash ISO50 daylight shots, shutter about1/2985 to1/2451. C1 shadow fix remains supported. N2 source is clearer than output, indicating rendering-related softness. These samples do not validate low-light flash.",
+  "code_changes_this_review": false
+}

@@ -1,0 +1,36 @@
+{
+  "date": "2026-11-22",
+  "changes": [
+    "N2 added grain tapers from0.45 at ISO50 to0.10 at ISO1600+ instead of increasing with ISO",
+    "N2 added grain is luminance-neutral, avoiding extra colour speckles",
+    "High-ISO denoise and prior tone/colour improvements retained",
+    "Retired ineffective automatic-flash AE ceiling/custom shutter forcing and600ms settle wait/failure path",
+    "Standard ON/OFF/AUTO cycling, manual controls, sequential flash pair, full-capture completion handling and actual EXIF archive retained",
+    "Capture diagnostic marker system-flash-actual-exif-20261122-v5 reports system-auto/user-manual honestly"
+  ],
+  "verification": {
+    "full_tests_passed": 141,
+    "suites": 43,
+    "test_count_note": "Removed three tests of retired shutter helpers; added two grain tests",
+    "device_release_build": "passed signing disabled",
+    "diff_check": "passed",
+    "native_photo_variants": 18,
+    "samples": [
+      "6469 daylight buildings",
+      "6463 flash portrait",
+      "6472 ISO3200 nonflash portrait"
+    ],
+    "existing_night_flash_fixture_test": "skipped; explicit real-original rendering suites executed",
+    "installed_to_device_by_agent": false,
+    "new_physical_retake": false
+  },
+  "release_assessment": {
+    "recommendation": "Small-scope test/staged-release candidate; verify final-device high-ISO N2, native flash pair and save/reopen before full rollout",
+    "scope": "Imaging and capture functions only; no store-submission assessment",
+    "known_limits": [
+      "Source low-light blur cannot be reconstructed",
+      "Hardware flash may choose slow shutter;1/60 is not guaranteed",
+      "Latest grain and capture-path changes have not yet been physically retaken"
+    ]
+  }
+}

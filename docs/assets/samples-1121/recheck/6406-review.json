@@ -1,0 +1,54 @@
+{
+  "file": "IMG_6406.HEIC",
+  "capture": {
+    "camera": "POCKET A7",
+    "cameraPosition": "back",
+    "capturedAt": "2026-11-21T15:33:37Z",
+    "exposureBias": 0,
+    "flashMode": "AUTO",
+    "frames": [
+      {
+        "byteCount": 1039670,
+        "exposure": {
+          "exposureBias": 0,
+          "iso": 2000,
+          "shutterSeconds": 0.06666666666666667,
+          "whiteBalanceMode": 0
+        },
+        "fileName": "frame-0-ambient.jpg",
+        "pixelHeight": 3024,
+        "pixelWidth": 4032,
+        "role": "ambient"
+      },
+      {
+        "byteCount": 2809406,
+        "exposure": {
+          "exposureBias": 0,
+          "iso": 64,
+          "shutterSeconds": 0.25,
+          "whiteBalanceMode": 0
+        },
+        "fileName": "frame-1-flash.jpg",
+        "pixelHeight": 3024,
+        "pixelWidth": 4032,
+        "role": "flash"
+      }
+    ],
+    "iso": 2000,
+    "lens": "1×",
+    "mode": "flashPair",
+    "requestedISO": 100,
+    "requestedShutterSeconds": 0.016666666666666666,
+    "requestedWhiteBalanceKelvin": 5200,
+    "shutterSeconds": 0.06666666666666667,
+    "version": 1
+  },
+  "review": {
+    "blue_grey_skin_bands": "Not visible in reviewed 1000px output; improvement versus 6405",
+    "lips": "No longer unnaturally vivid red",
+    "background": "Retained instead of heavily crushed",
+    "remaining": "Skin slightly yellow/pale; source itself bright and soft; actual flash exposure 1/4 sec ISO64 raises motion blur concern",
+    "scope": "This sample supports correction of A7 flash grey patches, not complete app release certification",
+    "code_changes_this_review": false
+  }
+}

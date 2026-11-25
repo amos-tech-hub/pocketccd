@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-21",
+  "inputs": [
+    "IMG_6402 flash original",
+    "IMG_6405 flash original"
+  ],
+  "scope": "A7 flash only; other look recipes and ambient A7 unchanged",
+  "diagnosis": "Red-guard ablation removed grey bands but exposed orange skin. Full-strength thresholded compression desaturated adjacent skin unequally. Flash lens stage added excessive dark falloff.",
+  "fixes": [
+    "Monotonic smooth chroma compression for A7 flash; strength 0.55, preserving at least 45% red-green chroma",
+    "A7 flash highlight attenuation 0.42 to 0.20, exposure trim -0.16 to -0.08 EV",
+    "A7 flash brightness subtraction and extra contrast removed; vignette intensity 1.15 to 0.35"
+  ],
+  "verification": {
+    "simulator_tests_passed": 130,
+    "suites": 37,
+    "skipped": "Existing night-flash measurement suite lacks requested FLASH fixtures; separate new flash stage suite rendered actual 6402/6405 originals",
+    "device_release_compile": "passed, signing disabled",
+    "diff_check": "passed",
+    "diagnostic_render": "1000px same-source before/after, flash=1, generic sensor seed",
+    "physical_retake_after_fix": false
+  },
+  "artifacts": [
+    "6402-flash-fix.jpg",
+    "6405-flash-fix.jpg"
+  ]
+}

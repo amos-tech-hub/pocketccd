@@ -1,0 +1,4 @@
+# Real device photos stay out of the repository.
+*
+!.gitignore
+!README.md

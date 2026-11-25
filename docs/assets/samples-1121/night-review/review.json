@@ -1,0 +1,1179 @@
+{
+  "date": "2026-11-21",
+  "samples": 53,
+  "matched_manifests": 53,
+  "originals_inspected": 14,
+  "all_proxies_measured": 67,
+  "look_labels": "Matched by capture timestamp to device archive manifests, not inferred from stamp colours",
+  "hardware_flash_fired": [
+    "IMG_6380.HEIC (A8)",
+    "IMG_6381.HEIC (N2)"
+  ],
+  "findings": [
+    {
+      "priority": 1,
+      "issue": "Very dark front-camera portraits are further crushed by rendering; C1/N2 lose visible face detail",
+      "samples": [
+        "IMG_6386.HEIC (N2)",
+        "IMG_6389.HEIC (C1)"
+      ],
+      "evidence": "Fixed central ROI display luminance: N2 0.142 to 0.040; C1 0.157 to 0.050. These are encoded-sRGB brightness values, not scene exposure stops."
+    },
+    {
+      "priority": 1,
+      "issue": "A7 amplifies an existing magenta cast on one very-dark portrait",
+      "samples": [
+        "IMG_6387.HEIC"
+      ],
+      "evidence": "Detected central face R/G 1.58 to 1.81; brightness 0.277 to 0.199."
+    },
+    {
+      "priority": 2,
+      "issue": "Slow shutter and blur already exist in night source images",
+      "samples": [
+        "IMG_6371.HEIC",
+        "IMG_6380.HEIC",
+        "IMG_6381.HEIC"
+      ],
+      "evidence": "Night front-camera exposures approximately 1/14–1/15 s; both actual rear-flash photos 1/4 s. Motion success rate is not established by static samples."
+    }
+  ],
+  "positive_findings": [
+    "Dusk portraits and ordinary indoor light look more stable; the earlier strong orange-face cast is not repeated across this new set.",
+    "Two real rear-flash captures confirm actual flash firing and the bright-subject/dark-background look.",
+    "Night scenes retain a consistent sky gradient; black sky/background alone is not classified as a failure."
+  ],
+  "release_assessment": "Do not pass low-light portrait acceptance yet. Prioritize preserving dark-face midtones and controlling low-light colour amplification.",
+  "limits": [
+    "Exact installed build not established; manifests include the recent actual-EXIF schema.",
+    "Proxy measurements at 1000 px, with mirrored/framing differences; no pixel-aligned before/after comparison.",
+    "Face-region means do not prove absence of local colour blotches.",
+    "53 still photos do not validate real-time preview FPS, exposure transitions, interruption recovery or pair/roll UI flows."
+  ],
+  "comparisons": [
+    {
+      "file": "IMG_6336.HEIC",
+      "original_fixed_central_roi": {
+        "B_G": 0.8116126923285695,
+        "bright_percent": 0,
+        "dark_percent": 1.0221238938053097,
+        "luma": 0.4421580336977264,
+        "R_G": 1.2456074563699004
+      },
+      "saved_fixed_central_roi": {
+        "B_G": 0.8411469419402282,
+        "bright_percent": 0,
+        "dark_percent": 6.52433628318584,
+        "luma": 0.41208880503210915,
+        "R_G": 1.1658497082464816
+      },
+      "original_detected_faces": [
+        {
+          "box": [
+            0.3203650712966919,
+            0.40512192249298096,
+            0.30593976378440857,
+            0.22945481538772583
+          ],
+          "central_face": {
+            "B_G": 0.8255037275652851,
+            "bright_percent": 0,
+            "dark_percent": 0.38164251207729466,
+            "luma": 0.4906852278867119,
+            "R_G": 1.318978501566927
+          }
+        }
+      ],
+      "saved_detected_faces": [
+        {
+          "box": [
+            0.3161163330078125,
+            0.40432214736938477,
+            0.30984699726104736,
+            0.23238523304462433
+          ],
+          "central_face": {
+            "B_G": 0.9082828106165938,
+            "bright_percent": 0,
+            "dark_percent": 1.593045112781955,
+            "luma": 0.4610517270013478,
+            "R_G": 1.181569527480199
+          }
+        }
+      ]
+    },
+    {
+      "file": "IMG_6337.HEIC",
+      "original_fixed_central_roi": {
+        "B_G": 0.8332243716216812,
+        "bright_percent": 0,
+        "dark_percent": 1.0221238938053097,
+        "luma": 0.42998356139163213,
+        "R_G": 1.212745726727203
+      },
+      "saved_fixed_central_roi": {
+        "B_G": 0.8204725171973186,
+        "bright_percent": 0,
+        "dark_percent": 3.856194690265487,
+        "luma": 0.4130167637515074,
+        "R_G": 1.1759747267750926
+      },
+      "original_detected_faces": [
+        {
+          "box": [
+            0.2657160758972168,
+            0.40097102522850037,
+            0.30878373980522156,
+            0.23158779740333557
+          ],
+          "central_face": {
+            "B_G": 0.8289138591826007,
+            "bright_percent": 0,
+            "dark_percent": 0.47776726584673607,
+            "luma": 0.4684534692711425,
+            "R_G": 1.326503617455452
+          }
+        }
+      ],
+      "saved_detected_faces": [
+        {
+          "box": [
+            0.26449155807495117,
+            0.4036945700645447,
+            0.3074902892112732,
+            0.2306177020072937
+          ],
+          "central_face": {
+            "B_G": 0.8630126583031515,
+            "bright_percent": 0,
+            "dark_percent": 2.3202629949020914,
+            "luma": 0.4566329140847676,
+            "R_G": 1.2475078258427914
+          }
+        }
+      ]
+    },
+    {
+      "file": "IMG_6371.HEIC",
+      "original_fixed_central_roi": {
+        "B_G": 0.723505336394918,
+        "bright_percent": 0,
+        "dark_percent": 7.785398230088496,
+        "luma": 0.25120661441961994,
+        "R_G": 1.4218397633131588
+      },
+      "saved_fixed_central_roi": {
+        "B_G": 0.8129959148260382,
+        "bright_percent": 0,
+        "dark_percent": 22.179203539823007,
+        "luma": 0.19142213215340914,
+        "R_G": 1.3622380487577723
+      },
+      "original_detected_faces": [
+        {
+          "box": [
+            0.2606782615184784,
+            0.44474780559539795,
+            0.4521036446094513,
+            0.33907774090766907
+          ],
+          "central_face": {
+            "B_G": 0.7541166152442208,
+            "bright_percent": 0,
+            "dark_percent": 0.8805784757341851,
+            "luma": 0.2894980113461193,
+            "R_G": 1.4443272250946713
+          }
+        }
+      ],
+      "saved_detected_faces": [
+        {
+          "box": [
+            0.30566760897636414,
+            0.46479150652885437,
+            0.4049193263053894,
+            0.30368947982788086
+          ],
+          "central_face": {
+            "B_G": 0.8167664641269966,
+            "bright_percent": 0,
+            "dark_percent": 4.265480895915679,
+            "luma": 0.23599605828101508,
+            "R_G": 1.4200156076687638
+          }
+        }
+      ]
+    },
+    {
+      "file": "IMG_6372.HEIC",
+      "original_fixed_central_roi": {
+        "B_G": 0.7087603463017867,
+        "bright_percent": 0.017699115044247787,
+        "dark_percent": 0.2654867256637168,
+        "luma": 0.42968375453757146,
+        "R_G": 1.4315279935225769
+      },
+      "saved_fixed_central_roi": {
+        "B_G": 0.8134570621352333,
+        "bright_percent": 0,
+        "dark_percent": 1.5730088495575223,
+        "luma": 0.41093338401875257,
+        "R_G": 1.3440662706937767
+      },
+      "original_detected_faces": [
+        {
+          "box": [
+            0.22415466606616974,
+            0.3165143132209778,
+            0.4848170876502991,
+            0.3636128306388855
+          ],
+          "central_face": {
+            "B_G": 0.7089153089414169,
+            "bright_percent": 0.015343306482546988,
+            "dark_percent": 0.05945531261986958,
+            "luma": 0.44131204285598186,
+            "R_G": 1.427783845880105
+          }
+        }
+      ],
+      "saved_detected_faces": [
+        {
+          "box": [
+            0.2914868891239166,
+            0.31223762035369873,
+            0.4874836802482605,
+            0.36561277508735657
+          ],
+          "central_face": {
+            "B_G": 0.8182818593740506,
+            "bright_percent": 0,
+            "dark_percent": 1.1056627350006625,
+            "luma": 0.42520403128853645,
+            "R_G": 1.3352003098116778
+          }
+        }
+      ]
+    },
+    {
+      "file": "IMG_6373.HEIC",
+      "original_fixed_central_roi": {
+        "B_G": 0.7169121941418921,
+        "bright_percent": 0.008849557522123894,
+        "dark_percent": 0.07964601769911504,
+        "luma": 0.4557150927121426,
+        "R_G": 1.4113664401835668
+      },
+      "saved_fixed_central_roi": {
+        "B_G": 0.8020452888335865,
+        "bright_percent": 0.015486725663716814,
+        "dark_percent": 4.2234513274336285,
+        "luma": 0.44705104511537114,
+        "R_G": 1.3711274026594427
+      },
+      "original_detected_faces": [
+        {
+          "box": [
+            0.2355235368013382,
+            0.2813127338886261,
+            0.4947911500930786,
+            0.37109336256980896
+          ],
+          "central_face": {
+            "B_G": 0.7173630406336923,
+            "bright_percent": 0.009223730814639905,
+            "dark_percent": 0.08485832349468712,
+            "luma": 0.4433845434723614,
+            "R_G": 1.4253117861127498
+          }
+        }
+      ],
+      "saved_detected_faces": [
+        {
+          "box": [
+            0.2669801712036133,
+            0.28144749999046326,
+            0.49306511878967285,
+            0.36979883909225464
+          ],
+          "central_face": {
+            "B_G": 0.8040057286938282,
+            "bright_percent": 0.013024952086783396,
+            "dark_percent": 5.677018402396591,
+            "luma": 0.4290785010286646,
+            "R_G": 1.384111679393302
+          }
+        }
+      ]
+    },
+    {
+      "file": "IMG_6374.HEIC",
+      "original_fixed_central_roi": {
+        "B_G": 0.7186268089809252,
+        "bright_percent": 0.011061946902654867,
+        "dark_percent": 0.07079646017699115,
+        "luma": 0.44632014719764906,
+        "R_G": 1.4141250214040764
+      },
+      "saved_fixed_central_roi": {
+        "B_G": 0.8442847253680598,
+        "bright_percent": 0,
+        "dark_percent": 3.064159292035398,
+        "luma": 0.3887959826826294,
+        "R_G": 1.2737296255185544
+      },
+      "original_detected_faces": [
+        {
+          "box": [
+            0.24983255565166473,
+            0.27993878722190857,
+            0.4805793762207031,
+            0.36043453216552734
+          ],
+          "central_face": {
+            "B_G": 0.7173772233670065,
+            "bright_percent": 0.011765859397980194,
+            "dark_percent": 0.06275125012256104,
+            "luma": 0.42821020829031226,
+            "R_G": 1.4338974861910558
+          }
+        }
+      ],
+      "saved_detected_faces": [
+        {
+          "box": [
+            0.26990941166877747,
+            0.2780117690563202,
+            0.48224255442619324,
+            0.36168190836906433
+          ],
+          "central_face": {
+            "B_G": 0.8395846958257661,
+            "bright_percent": 0,
+            "dark_percent": 4.208132483284093,
+            "luma": 0.3649509335296918,
+            "R_G": 1.3015277135076784
+          }
+        }
+      ]
+    },
+    {
+      "file": "IMG_6376.HEIC",
+      "original_fixed_central_roi": {
+        "B_G": 0.9465776047857224,
+        "bright_percent": 0.0022123893805309734,
+        "dark_percent": 0,
+        "luma": 0.4938785506853726,
+        "R_G": 1.5051480499327747
+      },
+      "saved_fixed_central_roi": {
+        "B_G": 0.9539710752475052,
+        "bright_percent": 0,
+        "dark_percent": 0.13938053097345132,
+        "luma": 0.4513135512753922,
+        "R_G": 1.3320589410205281
+      },
+      "original_detected_faces": [
+        {
+          "box": [
+            0.28090399503707886,
+            0.2827514111995697,
+            0.4829912483692169,
+            0.3622434437274933
+          ],
+          "central_face": {
+            "B_G": 0.9515698954092683,
+            "bright_percent": 0.001943710153941844,
+            "dark_percent": 0,
+            "luma": 0.4911268976861103,
+            "R_G": 1.5372701044801407
+          }
+        }
+      ],
+      "saved_detected_faces": [
+        {
+          "box": [
+            0.23072046041488647,
+            0.2807200849056244,
+            0.48796048760414124,
+            0.3659703731536865
+          ],
+          "central_face": {
+            "B_G": 0.9610040632642389,
+            "bright_percent": 0,
+            "dark_percent": 0.1198174210726512,
+            "luma": 0.4431076139589421,
+            "R_G": 1.3662921876934924
+          }
+        }
+      ]
+    },
+    {
+      "file": "IMG_6378.HEIC",
+      "original_fixed_central_roi": {
+        "B_G": 0.9616244162188241,
+        "bright_percent": 0.004424778761061947,
+        "dark_percent": 0,
+        "luma": 0.49233421172996905,
+        "R_G": 1.5281800652339037
+      },
+      "saved_fixed_central_roi": {
+        "B_G": 0.9909523051209244,
+        "bright_percent": 0.008849557522123894,
+        "dark_percent": 1.2544247787610618,
+        "luma": 0.487428610463288,
+        "R_G": 1.5011181670600922
+      },
+      "original_detected_faces": [
+        {
+          "box": [
+            0.2581348121166229,
+            0.2924371361732483,
+            0.48843449354171753,
+            0.36632585525512695
+          ],
+          "central_face": {
+            "B_G": 0.9631516871439088,
+            "bright_percent": 0.003786516215755694,
+            "dark_percent": 0,
+            "luma": 0.4856041195068735,
+            "R_G": 1.5417451941196014
+          }
+        }
+      ],
+      "saved_detected_faces": [
+        {
+          "box": [
+            0.2459031343460083,
+            0.29032060503959656,
+            0.49136894941329956,
+            0.3685266971588135
+          ],
+          "central_face": {
+            "B_G": 0.9946872091611955,
+            "bright_percent": 0.0075075075075075074,
+            "dark_percent": 1.0660660660660661,
+            "luma": 0.47747305863215095,
+            "R_G": 1.5212913041369147
+          }
+        }
+      ]
+    },
+    {
+      "file": "IMG_6380.HEIC",
+      "original_fixed_central_roi": {
+        "B_G": 0.8417596675166167,
+        "bright_percent": 24.9070796460177,
+        "dark_percent": 3.776548672566372,
+        "luma": 0.465308977199346,
+        "R_G": 1.3900849129939616
+      },
+      "saved_fixed_central_roi": {
+        "B_G": 0.8813274509249941,
+        "bright_percent": 0,
+        "dark_percent": 35.307522123893804,
+        "luma": 0.3669048862397912,
+        "R_G": 1.2270040897406014
+      },
+      "original_detected_faces": [
+        {
+          "box": [
+            0.08471564203500748,
+            0.3369753658771515,
+            0.4720112979412079,
+            0.3540084958076477
+          ],
+          "central_face": {
+            "B_G": 0.8763081787350112,
+            "bright_percent": 52.16958315549864,
+            "dark_percent": 0,
+            "luma": 0.7236056555295474,
+            "R_G": 1.4097436982079201
+          }
+        }
+      ],
+      "saved_detected_faces": [
+        {
+          "box": [
+            0.08986052125692368,
+            0.340152382850647,
+            0.4627986550331116,
+            0.3470990061759949
+          ],
+          "central_face": {
+            "B_G": 0.8875843388444942,
+            "bright_percent": 0,
+            "dark_percent": 0.4510174113698343,
+            "luma": 0.5787225887946715,
+            "R_G": 1.2344202291207693
+          }
+        }
+      ]
+    },
+    {
+      "file": "IMG_6381.HEIC",
+      "original_fixed_central_roi": {
+        "B_G": 0.8255485380875102,
+        "bright_percent": 13.681415929203538,
+        "dark_percent": 1.095132743362832,
+        "luma": 0.5342306588061646,
+        "R_G": 1.3960126603313312
+      },
+      "saved_fixed_central_roi": {
+        "B_G": 0.8779078652567035,
+        "bright_percent": 0,
+        "dark_percent": 25.38495575221239,
+        "luma": 0.4191355399965264,
+        "R_G": 1.2082802396229622
+      },
+      "original_detected_faces": [
+        {
+          "box": [
+            0.11578969657421112,
+            0.4847213625907898,
+            0.4182620942592621,
+            0.31369656324386597
+          ],
+          "central_face": {
+            "B_G": 0.8812320342474254,
+            "bright_percent": 37.571299522519034,
+            "dark_percent": 0,
+            "luma": 0.6998345164841083,
+            "R_G": 1.4444321420475563
+          }
+        }
+      ],
+      "saved_detected_faces": [
+        {
+          "box": [
+            0.11144529283046722,
+            0.4683903157711029,
+            0.4347498416900635,
+            0.3260623812675476
+          ],
+          "central_face": {
+            "B_G": 0.9047490544423623,
+            "bright_percent": 0,
+            "dark_percent": 0.8102762088606087,
+            "luma": 0.5298346072987337,
+            "R_G": 1.2406823451265634
+          }
+        }
+      ]
+    },
+    {
+      "file": "IMG_6386.HEIC",
+      "original_fixed_central_roi": {
+        "B_G": 0.8076897359655764,
+        "bright_percent": 0,
+        "dark_percent": 1.4092920353982301,
+        "luma": 0.14204161407252547,
+        "R_G": 1.615797718679204
+      },
+      "saved_fixed_central_roi": {
+        "B_G": 0.9056113576015532,
+        "bright_percent": 0,
+        "dark_percent": 63.134955752212385,
+        "luma": 0.040050943761926555,
+        "R_G": 0.9334857520976041
+      },
+      "original_detected_faces": [
+        {
+          "box": [
+            0.2721036672592163,
+            0.28951340913772583,
+            0.3817932903766632,
+            0.286344975233078
+          ],
+          "central_face": {
+            "B_G": 0.8197052616207526,
+            "bright_percent": 0,
+            "dark_percent": 0.7820469228153689,
+            "luma": 0.15573142512186813,
+            "R_G": 1.6101731157710386
+          }
+        }
+      ],
+      "saved_detected_faces": []
+    },
+    {
+      "file": "IMG_6387.HEIC",
+      "original_fixed_central_roi": {
+        "B_G": 1.0158466704811577,
+        "bright_percent": 0,
+        "dark_percent": 0.4690265486725664,
+        "luma": 0.2519306629360018,
+        "R_G": 1.5641484185761791
+      },
+      "saved_fixed_central_roi": {
+        "B_G": 0.9548515452269422,
+        "bright_percent": 0,
+        "dark_percent": 4.042035398230088,
+        "luma": 0.17384624416103187,
+        "R_G": 1.789637343042868
+      },
+      "original_detected_faces": [
+        {
+          "box": [
+            0.2755281627178192,
+            0.3290420472621918,
+            0.3748047351837158,
+            0.28110355138778687
+          ],
+          "central_face": {
+            "B_G": 1.0335068069829827,
+            "bright_percent": 0,
+            "dark_percent": 0.5239472838315654,
+            "luma": 0.2766512519648808,
+            "R_G": 1.575302169574008
+          }
+        }
+      ],
+      "saved_detected_faces": [
+        {
+          "box": [
+            0.34326258301734924,
+            0.3118574023246765,
+            0.4027947187423706,
+            0.30209603905677795
+          ],
+          "central_face": {
+            "B_G": 0.9818918138968115,
+            "bright_percent": 0,
+            "dark_percent": 1.8307397853041525,
+            "luma": 0.19855288102203772,
+            "R_G": 1.8083618174245328
+          }
+        }
+      ]
+    },
+    {
+      "file": "IMG_6388.HEIC",
+      "original_fixed_central_roi": {
+        "B_G": 0.7579691629100008,
+        "bright_percent": 0,
+        "dark_percent": 0.6349557522123894,
+        "luma": 0.1563692408641403,
+        "R_G": 1.5262252496895916
+      },
+      "saved_fixed_central_roi": {
+        "B_G": 0.5657769057264247,
+        "bright_percent": 0,
+        "dark_percent": 14.74778761061947,
+        "luma": 0.09611470461566214,
+        "R_G": 1.4409658288836313
+      },
+      "original_detected_faces": [
+        {
+          "box": [
+            0.254633367061615,
+            0.30156439542770386,
+            0.37739622592926025,
+            0.2830471694469452
+          ],
+          "central_face": {
+            "B_G": 0.7779427447498695,
+            "bright_percent": 0,
+            "dark_percent": 0.474158368895211,
+            "luma": 0.16434063140538951,
+            "R_G": 1.5468444879685308
+          }
+        }
+      ],
+      "saved_detected_faces": [
+        {
+          "box": [
+            0.38098615407943726,
+            0.3113463222980499,
+            0.3507098853588104,
+            0.2630324065685272
+          ],
+          "central_face": {
+            "B_G": 0.5714619869100614,
+            "bright_percent": 0,
+            "dark_percent": 9.96050899517332,
+            "luma": 0.1047013267486413,
+            "R_G": 1.5586923777159767
+          }
+        }
+      ]
+    },
+    {
+      "file": "IMG_6389.HEIC",
+      "original_fixed_central_roi": {
+        "B_G": 0.7676043850715868,
+        "bright_percent": 0,
+        "dark_percent": 0.6106194690265487,
+        "luma": 0.15690514126325383,
+        "R_G": 1.4711214281439455
+      },
+      "saved_fixed_central_roi": {
+        "B_G": 0.8724544499517578,
+        "bright_percent": 0,
+        "dark_percent": 82.27876106194691,
+        "luma": 0.049848907270509106,
+        "R_G": 1.2178117204506858
+      },
+      "original_detected_faces": [
+        {
+          "box": [
+            0.24188339710235596,
+            0.30864766240119934,
+            0.38304969668388367,
+            0.28728726506233215
+          ],
+          "central_face": {
+            "B_G": 0.7839659229783226,
+            "bright_percent": 0,
+            "dark_percent": 0.7929190484971418,
+            "luma": 0.15665224159025362,
+            "R_G": 1.515340888049606
+          }
+        }
+      ],
+      "saved_detected_faces": [
+        {
+          "box": [
+            0.41135653853416443,
+            0.3132793605327606,
+            0.3385313153266907,
+            0.2538984715938568
+          ],
+          "central_face": {
+            "B_G": 0.8761706093826791,
+            "bright_percent": 0,
+            "dark_percent": 64.91062288369163,
+            "luma": 0.049465849557396,
+            "R_G": 1.4830609450911612
+          }
+        }
+      ]
+    }
+  ],
+  "labels": [
+    {
+      "file": "IMG_6365.HEIC",
+      "folder": "20261121-181338-40c71a",
+      "camera": "POCKET C1",
+      "cameraPosition": "back",
+      "flashModeRequested": "NO FLASH",
+      "mode": "standard"
+    },
+    {
+      "file": "IMG_6366.HEIC",
+      "folder": "20261121-181359-324118",
+      "camera": "POCKET A7",
+      "cameraPosition": "back",
+      "flashModeRequested": "NO FLASH",
+      "mode": "standard"
+    },
+    {
+      "file": "IMG_6367.HEIC",
+      "folder": "20261121-181429-707bcc",
+      "camera": "POCKET A7",
+      "cameraPosition": "back",
+      "flashModeRequested": "NO FLASH",
+      "mode": "standard"
+    },
+    {
+      "file": "IMG_6368.HEIC",
+      "folder": "20261121-181433-2fcf49",
+      "camera": "POCKET A8",
+      "cameraPosition": "back",
+      "flashModeRequested": "NO FLASH",
+      "mode": "standard"
+    },
+    {
+      "file": "IMG_6369.HEIC",
+      "folder": "20261121-181437-594800",
+      "camera": "POCKET C1",
+      "cameraPosition": "back",
+      "flashModeRequested": "NO FLASH",
+      "mode": "standard"
+    },
+    {
+      "file": "IMG_6370.HEIC",
+      "folder": "20261121-181442-ee0de9",
+      "camera": "POCKET N2",
+      "cameraPosition": "back",
+      "flashModeRequested": "NO FLASH",
+      "mode": "standard"
+    },
+    {
+      "file": "IMG_6371.HEIC",
+      "folder": "20261121-181516-3c31ea",
+      "camera": "POCKET A7",
+      "cameraPosition": "front",
+      "flashModeRequested": "NO FLASH",
+      "mode": "standard"
+    },
+    {
+      "file": "IMG_6372.HEIC",
+      "folder": "20261121-181527-31fe06",
+      "camera": "POCKET A8",
+      "cameraPosition": "front",
+      "flashModeRequested": "NO FLASH",
+      "mode": "standard"
+    },
+    {
+      "file": "IMG_6373.HEIC",
+      "folder": "20261121-181532-610d2b",
+      "camera": "POCKET C1",
+      "cameraPosition": "front",
+      "flashModeRequested": "NO FLASH",
+      "mode": "standard"
+    },
+    {
+      "file": "IMG_6374.HEIC",
+      "folder": "20261121-181536-706f03",
+      "camera": "POCKET N2",
+      "cameraPosition": "front",
+      "flashModeRequested": "NO FLASH",
+      "mode": "standard"
+    },
+    {
+      "file": "IMG_6375.HEIC",
+      "folder": "20261121-181542-2c8b18",
+      "camera": "POCKET A7",
+      "cameraPosition": "front",
+      "flashModeRequested": "NO FLASH",
+      "mode": "standard"
+    },
+    {
+      "file": "IMG_6376.HEIC",
+      "folder": "20261121-181547-ffe6c3",
+      "camera": "POCKET A7",
+      "cameraPosition": "front",
+      "flashModeRequested": "NO FLASH",
+      "mode": "standard"
+    },
+    {
+      "file": "IMG_6377.HEIC",
+      "folder": "20261121-181552-91a64e",
+      "camera": "POCKET A8",
+      "cameraPosition": "front",
+      "flashModeRequested": "NO FLASH",
+      "mode": "standard"
+    },
+    {
+      "file": "IMG_6378.HEIC",
+      "folder": "20261121-181557-b59489",
+      "camera": "POCKET C1",
+      "cameraPosition": "front",
+      "flashModeRequested": "NO FLASH",
+      "mode": "standard"
+    },
+    {
+      "file": "IMG_6379.HEIC",
+      "folder": "20261121-181604-ca4466",
+      "camera": "POCKET N2",
+      "cameraPosition": "front",
+      "flashModeRequested": "NO FLASH",
+      "mode": "standard"
+    },
+    {
+      "file": "IMG_6380.HEIC",
+      "folder": "20261121-181644-7188ce",
+      "camera": "POCKET A8",
+      "cameraPosition": "back",
+      "flashModeRequested": "AUTO",
+      "mode": "standard"
+    },
+    {
+      "file": "IMG_6381.HEIC",
+      "folder": "20261121-181700-826b80",
+      "camera": "POCKET N2",
+      "cameraPosition": "back",
+      "flashModeRequested": "AUTO",
+      "mode": "standard"
+    },
+    {
+      "file": "IMG_6382.HEIC",
+      "folder": "20261121-181715-c2b5a5",
+      "camera": "POCKET A7",
+      "cameraPosition": "front",
+      "flashModeRequested": "AUTO",
+      "mode": "standard"
+    },
+    {
+      "file": "IMG_6383.HEIC",
+      "folder": "20261121-181720-c4f5de",
+      "camera": "POCKET A8",
+      "cameraPosition": "front",
+      "flashModeRequested": "AUTO",
+      "mode": "standard"
+    },
+    {
+      "file": "IMG_6384.HEIC",
+      "folder": "20261121-181724-96871a",
+      "camera": "POCKET C1",
+      "cameraPosition": "front",
+      "flashModeRequested": "AUTO",
+      "mode": "standard"
+    },
+    {
+      "file": "IMG_6385.HEIC",
+      "folder": "20261121-181729-59ba1f",
+      "camera": "POCKET N2",
+      "cameraPosition": "front",
+      "flashModeRequested": "AUTO",
+      "mode": "standard"
+    },
+    {
+      "file": "IMG_6386.HEIC",
+      "folder": "20261121-181744-f8a3dc",
+      "camera": "POCKET N2",
+      "cameraPosition": "front",
+      "flashModeRequested": "AUTO",
+      "mode": "standard"
+    },
+    {
+      "file": "IMG_6387.HEIC",
+      "folder": "20261121-181751-629ff7",
+      "camera": "POCKET A7",
+      "cameraPosition": "front",
+      "flashModeRequested": "AUTO",
+      "mode": "standard"
+    },
+    {
+      "file": "IMG_6388.HEIC",
+      "folder": "20261121-181755-e6758c",
+      "camera": "POCKET A8",
+      "cameraPosition": "front",
+      "flashModeRequested": "AUTO",
+      "mode": "standard"
+    },
+    {
+      "file": "IMG_6389.HEIC",
+      "folder": "20261121-181800-e000b2",
+      "camera": "POCKET C1",
+      "cameraPosition": "front",
+      "flashModeRequested": "AUTO",
+      "mode": "standard"
+    },
+    {
+      "file": "IMG_6335.HEIC",
+      "folder": "20261121-164259-829bd0",
+      "camera": "POCKET A7",
+      "cameraPosition": "back",
+      "flashModeRequested": "NO FLASH",
+      "mode": "standard"
+    },
+    {
+      "file": "IMG_6336.HEIC",
+      "folder": "20261121-170354-fcb441",
+      "camera": "POCKET A7",
+      "cameraPosition": "back",
+      "flashModeRequested": "NO FLASH",
+      "mode": "standard"
+    },
+    {
+      "file": "IMG_6337.HEIC",
+      "folder": "20261121-170359-a010b4",
+      "camera": "POCKET A8",
+      "cameraPosition": "back",
+      "flashModeRequested": "NO FLASH",
+      "mode": "standard"
+    },
+    {
+      "file": "IMG_6338.HEIC",
+      "folder": "20261121-170405-e8c023",
+      "camera": "POCKET C1",
+      "cameraPosition": "back",
+      "flashModeRequested": "NO FLASH",
+      "mode": "standard"
+    },
+    {
+      "file": "IMG_6339.HEIC",
+      "folder": "20261121-170409-14b705",
+      "camera": "POCKET N2",
+      "cameraPosition": "back",
+      "flashModeRequested": "NO FLASH",
+      "mode": "standard"
+    },
+    {
+      "file": "IMG_6340.HEIC",
+      "folder": "20261121-170420-a7b157",
+      "camera": "POCKET A7",
+      "cameraPosition": "back",
+      "flashModeRequested": "NO FLASH",
+      "mode": "standard"
+    },
+    {
+      "file": "IMG_6341.HEIC",
+      "folder": "20261121-170424-93def5",
+      "camera": "POCKET A8",
+      "cameraPosition": "back",
+      "flashModeRequested": "NO FLASH",
+      "mode": "standard"
+    },
+    {
+      "file": "IMG_6342.HEIC",
+      "folder": "20261121-170428-bb2a1e",
+      "camera": "POCKET C1",
+      "cameraPosition": "back",
+      "flashModeRequested": "NO FLASH",
+      "mode": "standard"
+    },
+    {
+      "file": "IMG_6343.HEIC",
+      "folder": "20261121-170432-c0708d",
+      "camera": "POCKET N2",
+      "cameraPosition": "back",
+      "flashModeRequested": "NO FLASH",
+      "mode": "standard"
+    },
+    {
+      "file": "IMG_6344.HEIC",
+      "folder": "20261121-170446-303358",
+      "camera": "POCKET A7",
+      "cameraPosition": "back",
+      "flashModeRequested": "NO FLASH",
+      "mode": "standard"
+    },
+    {
+      "file": "IMG_6345.HEIC",
+      "folder": "20261121-170551-c705f2",
+      "camera": "POCKET A7",
+      "cameraPosition": "back",
+      "flashModeRequested": "NO FLASH",
+      "mode": "standard"
+    },
+    {
+      "file": "IMG_6346.HEIC",
+      "folder": "20261121-170729-74e68a",
+      "camera": "POCKET A7",
+      "cameraPosition": "back",
+      "flashModeRequested": "NO FLASH",
+      "mode": "standard"
+    },
+    {
+      "file": "IMG_6347.HEIC",
+      "folder": "20261121-170734-47b7c7",
+      "camera": "POCKET A8",
+      "cameraPosition": "back",
+      "flashModeRequested": "NO FLASH",
+      "mode": "standard"
+    },
+    {
+      "file": "IMG_6348.HEIC",
+      "folder": "20261121-170738-320a5e",
+      "camera": "POCKET C1",
+      "cameraPosition": "back",
+      "flashModeRequested": "NO FLASH",
+      "mode": "standard"
+    },
+    {
+      "file": "IMG_6349.HEIC",
+      "folder": "20261121-170742-187f16",
+      "camera": "POCKET N2",
+      "cameraPosition": "back",
+      "flashModeRequested": "NO FLASH",
+      "mode": "standard"
+    },
+    {
+      "file": "IMG_6350.HEIC",
+      "folder": "20261121-170803-faf8c8",
+      "camera": "POCKET A7",
+      "cameraPosition": "back",
+      "flashModeRequested": "NO FLASH",
+      "mode": "standard"
+    },
+    {
+      "file": "IMG_6351.HEIC",
+      "folder": "20261121-170837-31a407",
+      "camera": "POCKET A8",
+      "cameraPosition": "back",
+      "flashModeRequested": "NO FLASH",
+      "mode": "standard"
+    },
+    {
+      "file": "IMG_6352.HEIC",
+      "folder": "20261121-170842-12ff7d",
+      "camera": "POCKET C1",
+      "cameraPosition": "back",
+      "flashModeRequested": "NO FLASH",
+      "mode": "standard"
+    },
+    {
+      "file": "IMG_6353.HEIC",
+      "folder": "20261121-170849-b0d85d",
+      "camera": "POCKET N2",
+      "cameraPosition": "back",
+      "flashModeRequested": "NO FLASH",
+      "mode": "standard"
+    },
+    {
+      "file": "IMG_6354.HEIC",
+      "folder": "20261121-171044-93ae65",
+      "camera": "POCKET N2",
+      "cameraPosition": "back",
+      "flashModeRequested": "NO FLASH",
+      "mode": "standard"
+    },
+    {
+      "file": "IMG_6355.HEIC",
+      "folder": "20261121-171049-85a3b1",
+      "camera": "POCKET A7",
+      "cameraPosition": "back",
+      "flashModeRequested": "NO FLASH",
+      "mode": "standard"
+    },
+    {
+      "file": "IMG_6356.HEIC",
+      "folder": "20261121-171103-5430d5",
+      "camera": "POCKET A7",
+      "cameraPosition": "front",
+      "flashModeRequested": "NO FLASH",
+      "mode": "standard"
+    },
+    {
+      "file": "IMG_6357.HEIC",
+      "folder": "20261121-171109-c34fc1",
+      "camera": "POCKET A7",
+      "cameraPosition": "front",
+      "flashModeRequested": "NO FLASH",
+      "mode": "standard"
+    },
+    {
+      "file": "IMG_6358.HEIC",
+      "folder": "20261121-171115-3b0bdf",
+      "camera": "POCKET A8",
+      "cameraPosition": "front",
+      "flashModeRequested": "NO FLASH",
+      "mode": "standard"
+    },
+    {
+      "file": "IMG_6359.HEIC",
+      "folder": "20261121-171119-cf4e91",
+      "camera": "POCKET C1",
+      "cameraPosition": "front",
+      "flashModeRequested": "NO FLASH",
+      "mode": "standard"
+    },
+    {
+      "file": "IMG_6360.HEIC",
+      "folder": "20261121-171124-d21e67",
+      "camera": "POCKET N2",
+      "cameraPosition": "front",
+      "flashModeRequested": "NO FLASH",
+      "mode": "standard"
+    },
+    {
+      "file": "IMG_6361.HEIC",
+      "folder": "20261121-171154-33b05d",
+      "camera": "POCKET A7",
+      "cameraPosition": "back",
+      "flashModeRequested": "NO FLASH",
+      "mode": "standard"
+    },
+    {
+      "file": "IMG_6362.HEIC",
+      "folder": "20261121-171203-cf1ad6",
+      "camera": "POCKET A7",
+      "cameraPosition": "back",
+      "flashModeRequested": "NO FLASH",
+      "mode": "standard"
+    }
+  ]
+}

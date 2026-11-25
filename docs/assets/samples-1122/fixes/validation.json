@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-22",
+  "changes": {
+    "A8_flash": "Smooth monotonic red compression strength0.65 replaces thresholded0.85; ambient recipe unchanged",
+    "C1": "Luminance contrast shadow gain floor0.65 retains shaded structure; mid/high contrast1.22 retained",
+    "flash_falloff": "A8/C1/N2 use milder highlight protection0.20, -0.08EV, no channel brightness subtraction or extra contrast; vignette A8 0.50 C1 0.35 N2 0.40. A7 unchanged"
+  },
+  "verification": {
+    "full_tests_passed": 140,
+    "suites": 40,
+    "native_followup_tests_passed": 1,
+    "device_release_build": "passed signing disabled",
+    "diff_check": "passed",
+    "same_originals": "6415-6418,6454,6458,6459 at1000px;6416/6458 additionally native4032x3024 source output",
+    "C1_acceptance": "Shadow-region median >=70% of same pipeline with luminance contrast disabled",
+    "existing_night_flash_fixture_test": "skipped; explicit1122 real-photo tests ran",
+    "new_physical_retake": false,
+    "agent_installed_to_phone": false
+  },
+  "unresolved": "Hardware flash actual shutter remains slower than1/60 in the existing1122 samples. This grading repair is not a shutter-control fix.",
+  "comparison_note": "Before is saved output; after is native-resolution re-render of corresponding original with generic sensor grain seed and no date stamp."
+}

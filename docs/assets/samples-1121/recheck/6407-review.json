@@ -1,0 +1,52 @@
+{
+  "file": "IMG_6407.HEIC",
+  "capture": {
+    "camera": "POCKET A7",
+    "cameraPosition": "back",
+    "capturedAt": "2026-11-21T15:40:52Z",
+    "exposureBias": 0,
+    "flashMode": "AUTO",
+    "frames": [
+      {
+        "byteCount": 1329027,
+        "exposure": {
+          "exposureBias": 0,
+          "iso": 2500,
+          "shutterSeconds": 0.06666666666666667,
+          "whiteBalanceMode": 0
+        },
+        "fileName": "frame-0-ambient.jpg",
+        "pixelHeight": 3024,
+        "pixelWidth": 4032,
+        "role": "ambient"
+      },
+      {
+        "byteCount": 3357742,
+        "exposure": {
+          "exposureBias": 0,
+          "iso": 64,
+          "shutterSeconds": 0.25,
+          "whiteBalanceMode": 0
+        },
+        "fileName": "frame-1-flash.jpg",
+        "pixelHeight": 3024,
+        "pixelWidth": 4032,
+        "role": "flash"
+      }
+    ],
+    "iso": 2500,
+    "lens": "1×",
+    "mode": "flashPair",
+    "requestedISO": 100,
+    "requestedShutterSeconds": 0.016666666666666666,
+    "requestedWhiteBalanceKelvin": 5200,
+    "shutterSeconds": 0.06666666666666667,
+    "version": 1
+  },
+  "review": {
+    "colour": "No obvious large blue-grey patches; skin still slightly yellow/pale",
+    "motion_policy_validation": "FAILED: saved HEIC and original flash JPEG both ISO64 0.25 seconds, not target <=1/60",
+    "interpretation": "Source blur risk remains; cannot claim faster shutter. Installed binary fingerprint and applied AE limit are absent from manifest, so root cause is unconfirmed.",
+    "code_changes_this_review": false
+  }
+}

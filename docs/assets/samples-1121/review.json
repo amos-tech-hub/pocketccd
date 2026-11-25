@@ -1,0 +1,81 @@
+{
+  "date": "2026-11-21",
+  "source": "pictures/1121",
+  "inventory": {
+    ".heic": 144,
+    ".jpg": 13
+  },
+  "method": "Visual review of all 155 files in six contact sheets; selected 1000-pixel sRGB proxies inspected. No full-resolution texture measurement or controlled before/after render performed.",
+  "look_identification": "Tentative from date-stamp colors matching CCDLook.swift: orange A7, red A8, pale blue C1, green N2. Not matched against device manifest.",
+  "findings": [
+    {
+      "priority": 1,
+      "issue": "Warm/olive skin cast in A7/A8; C1 selfie appears more neutral",
+      "files": [
+        "IMG_6260.HEIC",
+        "IMG_6261.HEIC",
+        "IMG_6262.HEIC",
+        "IMG_6263.HEIC",
+        "IMG_6229.HEIC",
+        "IMG_6230.HEIC",
+        "IMG_6233.HEIC",
+        "IMG_6234.HEIC"
+      ],
+      "next": "Compare identical archived input across looks before changing temperature or skin mapping globally."
+    },
+    {
+      "priority": 1,
+      "issue": "Large colored solar highlight patch; shape and area vary by look",
+      "files": [
+        "IMG_6190.HEIC",
+        "IMG_6191.HEIC",
+        "IMG_6192.HEIC",
+        "IMG_6193.HEIC",
+        "IMG_6285.HEIC",
+        "IMG_6286.HEIC",
+        "IMG_6287.HEIC",
+        "IMG_6288.HEIC"
+      ],
+      "next": "Inspect original archived frame, then disable bloom, diffusion, halation, shoulder individually. Clipped sun disk alone is not a failure."
+    },
+    {
+      "priority": 2,
+      "issue": "C1 appears crisper with deeper shadows; N2 appears softer/greener in daylight",
+      "files": [
+        "IMG_6213.HEIC",
+        "IMG_6214.HEIC",
+        "IMG_6215.HEIC",
+        "IMG_6216.HEIC",
+        "IMG_6265.HEIC",
+        "IMG_6266.HEIC",
+        "IMG_6267.HEIC",
+        "IMG_6268.HEIC"
+      ],
+      "next": "Inspect native-resolution flat shadow and edge crops before adjusting grain or denoising."
+    }
+  ],
+  "limits": [
+    "No verified app build identification; cannot accept or reject latest code change from these files.",
+    "HEIC EXIF software identifies OS, not the PocketCCD build.",
+    "Sequential handheld photos differ in framing/exposure and are not controlled A/B inputs.",
+    "Screenshots and timestamp-named reference files excluded from PocketCCD conclusions.",
+    "No night/flash, temporal-white-balance or preview/capture parity acceptance from this daylight set."
+  ],
+  "initial_inventory": {
+    ".heic": 136,
+    ".jpg": 13,
+    ".png": 6
+  },
+  "additional_samples": [
+    "IMG_6318.HEIC",
+    "IMG_6319.HEIC",
+    "IMG_6320.HEIC",
+    "IMG_6321.HEIC",
+    "IMG_6322.HEIC",
+    "IMG_6323.HEIC",
+    "IMG_6324.HEIC",
+    "IMG_6325.HEIC"
+  ],
+  "additional_finding": "A7/A8 saturation stage amplifies warm skin in archived shop originals; temperature-only ablation did not resolve it. Added warm-midtones saturation protection and a real-portrait ROI regression.",
+  "validation_record": ".review/imaging-1121/final/validation.json"
+}

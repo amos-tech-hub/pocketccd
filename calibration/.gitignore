@@ -1,0 +1,7 @@
+# Third-party calibration imagery and derived LUTs: internal use only.
+charts/
+overlays/
+previews/
+source-*.png
+cube/
+*.zip

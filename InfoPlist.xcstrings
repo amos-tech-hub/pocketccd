@@ -1,0 +1,167 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "CFBundleDisplayName": {
+      "comment": "Bundle display name",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "PocketCCD"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "PocketCCD"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "PocketCCD"
+          }
+        }
+      }
+    },
+    "CFBundleName": {
+      "comment": "Bundle name",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "PocketCCD"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "PocketCCD"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "PocketCCD"
+          }
+        }
+      }
+    },
+    "NSCameraUsageDescription": {
+      "comment": "Privacy - Camera Usage Description",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "PocketCCD uses the camera to create nostalgic digital-camera photos."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "PocketCCD 使用相机创作怀旧数码相机风格照片。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "PocketCCD 使用相機創作懷舊數位相機風格照片。"
+          }
+        }
+      }
+    },
+    "NSLocalNetworkUsageDescription": {
+      "comment": "Privacy - Local Network Usage Description",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "PocketCCD uses the local network only when you choose paired capture with a nearby device."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "仅当你选择与附近设备配对拍摄时，PocketCCD 才会使用本地网络。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "僅當你選擇與附近裝置配對拍攝時，PocketCCD 才會使用區域網路。"
+          }
+        }
+      }
+    },
+    "NSLocationWhenInUseUsageDescription": {
+      "comment": "Privacy - Location When In Use Usage Description",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "PocketCCD adds your location to new photos only when you turn on Location tag."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "只有在打开「位置标记」时，PocketCCD 才会将位置写入新照片。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "只有在開啟「位置標記」時，PocketCCD 才會將位置寫入新照片。"
+          }
+        }
+      }
+    },
+    "NSMicrophoneUsageDescription": {
+      "comment": "Privacy - Microphone Usage Description",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "PocketCCD records sound only when you choose a two-second Pocket Moment."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "仅当你拍摄两秒 Pocket 瞬间时，PocketCCD 才会录制声音。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "僅當你拍攝兩秒 Pocket 瞬間時，PocketCCD 才會錄製聲音。"
+          }
+        }
+      }
+    },
+    "NSPhotoLibraryAddUsageDescription": {
+      "comment": "Privacy - Photo Library Additions Usage Description",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "PocketCCD saves finished photos, rolls, and contact sheets to your library."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "PocketCCD 会将完成的照片、胶卷和缩略样张保存到你的照片库。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "PocketCCD 會將完成的照片、相簿與接觸印樣儲存到你的照片圖庫。"
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}

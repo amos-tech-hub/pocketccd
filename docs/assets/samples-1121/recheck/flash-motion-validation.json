@@ -1,0 +1,24 @@
+{
+  "date": "2026-11-21",
+  "issue": "IMG_6405/6406 hardware flash used ISO64 1/4 sec, creating hand-held motion risk",
+  "changes": [
+    "Expected hardware flash uses speed prioritization; ambient auto keeps quality; manual remains speed",
+    "Automatic hardware-flash AE ceiling requests 1/60 sec bounded by format and any faster existing ceiling",
+    "AE maximum restored after completion or error, provided format unchanged; cancellation before request restores too",
+    "Explicit flash sequences complete frames serially, avoiding ambient frame contamination by the flash AE ceiling",
+    "6406 added to real-original flash rendering suite; colour recipe retained"
+  ],
+  "validation": {
+    "tests_passed": 132,
+    "suites": 38,
+    "existing_night_flash_fixture_test": "skipped; new flash rendering suite covers 6402/6405/6406 originals",
+    "device_release_compile": "passed with signing disabled",
+    "diff_check": "passed",
+    "new_flash_exif_after_change": "pending physical capture",
+    "hardware_ceiling_enforcement": "Requested policy, not verified exact 1/60 on hardware",
+    "tradeoff": "Speed flash may reduce computational fusion; faster exposure may require more ISO or reduce ambient contribution"
+  },
+  "references": [
+    "https://developer.apple.com/documentation/avfoundation/avcapturedevice/activemaxexposureduration"
+  ]
+}

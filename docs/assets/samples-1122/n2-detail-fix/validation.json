@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-22",
+  "scope": "N2 grading only. A7/A8/C1 recipes unchanged; denoise/grain stage switches default enabled.",
+  "diagnosis": "Native-resolution ablation of6469 and6463: removing bloom restores local detail/contrast much more than removing denoise. Temperature/red-guard ablations separate skin cast.",
+  "changes": {
+    "bloom": "0.25 to0.06",
+    "noise_reduction": "N2 base0.012 at ISO50 rising smoothly to0.034 at ISO1600+, unknown ISO retains0.034. Shared ISO scale still applies.",
+    "denoise_detail": "inputSharpness0.12 to0.20; final luminance sharpening0.17 unchanged",
+    "colour": "saturation0.94 to1.00, tint10 to4; temperature/red guard/shadow-gain floors unchanged"
+  },
+  "verification": {
+    "tests_passed": 142,
+    "suites": 42,
+    "device_release_build": "passed signing disabled",
+    "diff_check": "passed",
+    "native_ablation": "12 variants across6469 buildings and6463 flash portrait before and after",
+    "dark_regression": "6386 native-proxy dark portrait visually compared to previous rendering, no obvious additional face crushing",
+    "existing_night_flash_fixture_measurement": "skipped; explicit real-photo suites executed",
+    "installed_to_phone_by_agent": false,
+    "new_physical_retake_after_fix": false
+  },
+  "unresolved": "Low-light hardware flash shutter override remains a separate unresolved issue; this is not a shutter-control change."
+}

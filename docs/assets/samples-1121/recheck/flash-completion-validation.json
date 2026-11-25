@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-22",
+  "policyRevision": "flash-completion-verified-20261122-v4",
+  "finding": "6414 confirms v3 custom exposure settled before request, yet flash still EXIF remained 0.25 sec ISO64. Hardware shutter issue is unresolved.",
+  "changes": [
+    "Do not restore capture configuration on processing callback; await full capture completion",
+    "Aggregate processing and final completion events independent of main-actor task ordering; propagate terminal errors",
+    "Ignore focus taps while capture transaction owns exposure",
+    "Archive actual EXIF exposure and explicit requestedShutterHonored separately from pre-capture readiness"
+  ],
+  "verification": {
+    "tests_passed": 139,
+    "suites": 39,
+    "device_release_build": "passed signing disabled",
+    "diff_check": "passed",
+    "old_night_flash_fixture_measurement": "skipped; other real-original flash stage tests ran",
+    "installed_to_device": false,
+    "new_actual_flash_shutter": "pending; no success claim"
+  },
+  "limitations": "Timing/state protection is a correctness repair, not evidence that the device will obey 1/60 on hardware flash."
+}

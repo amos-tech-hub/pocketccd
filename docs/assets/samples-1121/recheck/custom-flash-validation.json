@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-22",
+  "changes": [
+    "Removed flash confirmation dialog; original compact HUD button cycles ON to OFF to AUTO to ON",
+    "Automatic expected hardware flash temporarily sets custom exposure duration <=1/60 sec (format/existing faster limit respected) and ISO capped at200 within hardware range",
+    "Capture waits up to600ms for BOTH custom shutter and ISO to settle, otherwise errors and restores exposure",
+    "Previous automatic exposure mode and maximum are restored after success/error/cancellation; pro mode preserved",
+    "Diagnostics policy marker custom-flash-exposure-20261122-v3 includes exposureStrategy and requestedISO"
+  ],
+  "verification": {
+    "full_regression": "135 tests /38 suites passed before final settling predicate extraction and removal of redundant UI-cycle unit test",
+    "final_focused_regression": "11 tests /2 suites passed, covering final settling predicate and ISO bounds",
+    "device_release_compile": "final production code passed, signing disabled",
+    "diff_check": "passed",
+    "physical_flash_still_exif": "not yet verified for this strategy",
+    "installed_to_phone_by_agent": false
+  },
+  "tradeoffs": [
+    "Faster shutter may reduce ambient background exposure; selected flash ISO may change noise/flash metering",
+    "New hardware still result must confirm shutter, actual flash firing and subject brightness"
+  ],
+  "reference": "https://developer.apple.com/documentation/avfoundation/avcapturedevice/setexposuremodecustom(duration:iso:completionhandler:)"
+}

@@ -1,0 +1,24 @@
+{
+  "date": "2026-11-21",
+  "changes": [
+    "Standard rear flash opens an ON/OFF/AUTO chooser, preserves identity preference, and distinguishes AUTO icon",
+    "Front screen fill remains on/off",
+    "Flash pair remains explicit off/on",
+    "Original capture.json frames now include optional diagnostics with policy marker, app version/build, per-frame requested flash, prioritization, limit application flag, before/after AE maximum/duration/ISO",
+    "Policy marker flash-ceiling-three-state-20261121-v2 identifies captures made by the new diagnostic path"
+  ],
+  "validation": {
+    "simulator_tests_passed": 133,
+    "suites": 38,
+    "tests_include": [
+      "All three flash selections persist",
+      "Per-frame diagnostics survive archive encoding alongside actual EXIF"
+    ],
+    "device_release_compile": "passed, signing disabled",
+    "diff_check": "passed",
+    "touch_verification": "not performed; device interaction tools unavailable",
+    "physical_flash_ceiling": "unresolved, new device capture required",
+    "existing_night_flash_fixture_test": "skipped; real-original flash rendering suite covers 6402/6405/6406"
+  },
+  "installed_on_phone_by_agent": false
+}

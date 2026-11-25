@@ -1,0 +1,129 @@
+{
+  "samples": [
+    {
+      "file": "IMG_6412.HEIC",
+      "folder": "20261121-235617-ae4464",
+      "capture": {
+        "camera": "POCKET A7",
+        "cameraPosition": "back",
+        "capturedAt": "2026-11-21T15:56:17Z",
+        "exposureBias": 0,
+        "flashMode": "FLASH",
+        "frames": [
+          {
+            "byteCount": 3184081,
+            "diagnostics": {
+              "after": {
+                "iso": 2528.3076,
+                "maximumSeconds": 0.016666666,
+                "mode": 2,
+                "shutterSeconds": 0.066421999
+              },
+              "appBuild": "2",
+              "appVersion": "1.0.1",
+              "before": {
+                "iso": 2528.3076,
+                "maximumSeconds": 0.016666666,
+                "mode": 2,
+                "shutterSeconds": 0.066421999
+              },
+              "flashLimitApplied": true,
+              "manualExposure": false,
+              "policyRevision": "flash-ceiling-three-state-20261121-v2",
+              "prioritization": "speed",
+              "requestedFlash": "FLASH",
+              "requestedMaximumSeconds": 0.016666666666666666
+            },
+            "exposure": {
+              "exposureBias": 0,
+              "iso": 64,
+              "shutterSeconds": 0.25,
+              "whiteBalanceMode": 0
+            },
+            "fileName": "frame-0-standard.jpg",
+            "pixelHeight": 3024,
+            "pixelWidth": 4032,
+            "role": "standard"
+          }
+        ],
+        "iso": 64,
+        "lens": "1×",
+        "mode": "standard",
+        "requestedISO": 100,
+        "requestedShutterSeconds": 0.016666666666666666,
+        "requestedWhiteBalanceKelvin": 5200,
+        "shutterSeconds": 0.25,
+        "version": 1
+      }
+    },
+    {
+      "file": "IMG_6413.HEIC",
+      "folder": "20261121-235626-6bcc5a",
+      "capture": {
+        "camera": "POCKET A7",
+        "cameraPosition": "back",
+        "capturedAt": "2026-11-21T15:56:26Z",
+        "exposureBias": 0,
+        "flashMode": "FLASH",
+        "frames": [
+          {
+            "byteCount": 3009791,
+            "diagnostics": {
+              "after": {
+                "iso": 2235.877,
+                "maximumSeconds": 0.016666666,
+                "mode": 2,
+                "shutterSeconds": 0.066421999
+              },
+              "appBuild": "2",
+              "appVersion": "1.0.1",
+              "before": {
+                "iso": 2235.877,
+                "maximumSeconds": 0.016666666,
+                "mode": 2,
+                "shutterSeconds": 0.066421999
+              },
+              "flashLimitApplied": true,
+              "manualExposure": false,
+              "policyRevision": "flash-ceiling-three-state-20261121-v2",
+              "prioritization": "speed",
+              "requestedFlash": "FLASH",
+              "requestedMaximumSeconds": 0.016666666666666666
+            },
+            "exposure": {
+              "exposureBias": 0,
+              "iso": 40,
+              "shutterSeconds": 0.25,
+              "whiteBalanceMode": 0
+            },
+            "fileName": "frame-0-standard.jpg",
+            "pixelHeight": 3024,
+            "pixelWidth": 4032,
+            "role": "standard"
+          }
+        ],
+        "iso": 40,
+        "lens": "1×",
+        "mode": "standard",
+        "requestedISO": 100,
+        "requestedShutterSeconds": 0.016666666666666666,
+        "requestedWhiteBalanceKelvin": 5200,
+        "shutterSeconds": 0.25,
+        "version": 1
+      }
+    }
+  ],
+  "findings": [
+    "Both standard-mode captures explicitly request FLASH and output EXIF confirms flash fired",
+    "New policy marker v2 and app version 1.0.1 build2 confirm current diagnostic path ran",
+    "flashLimitApplied true; before/after AE maximum about1/60; speed prioritization; manualExposure false",
+    "Actual flash original EXIF remains 1/4 sec ISO64/40; the current AE ceiling policy does not constrain flash still duration on this device",
+    "Visible skin grey-band fix retained; slight yellow/pale skin remains"
+  ],
+  "status": {
+    "three_state_forced_on": "verified by actual captures",
+    "off_and_auto": "not verified by these two forced-on samples",
+    "motion_ceiling": "failed actual capture verification",
+    "code_changes_this_review": false
+  }
+}
