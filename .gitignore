@@ -8,3 +8,9 @@ pictures/
 .review
 
 calibration-*.zip
+
+# Xcode build products and per-user state (never commit these)
+.build-*/
+.derived-*/
+.DS_Store
+**/xcuserdata/
