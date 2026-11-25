@@ -30,6 +30,6 @@ if git rev-parse --verify --quiet FETCH_HEAD >/dev/null; then
   PARENT=(-p "$(git rev-parse FETCH_HEAD)")
 fi
 COMMIT=$(git commit-tree "$TREE" "${PARENT[@]}" \
-  -m "Source snapshot: $(date +%Y-%m-%d %H:%M)")
+  -m "Source snapshot: $(date -u +%Y-%m-%dT%H:%MZ)")
 git push "$REMOTE" "$COMMIT:refs/heads/$BRANCH"
 echo "Pushed source snapshot $COMMIT to $REMOTE/$BRANCH"
